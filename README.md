@@ -1,7 +1,7 @@
 # Ganesh Kumar Basa — Personal Portfolio
 
-> Personal portfolio of **Ganesh Kumar Basa** — AI Engineer & Full Stack Developer (B.Tech CSE, 9.5/10 CGPA).  
-> Live Demo: · [GitHub](https://github.com/Ganeshkumar841) · [LinkedIn](https://www.linkedin.com/in/ganeshkumarbasa)
+> Personal portfolio of **Ganesh Kumar Basa** — AI Engineer & Full Stack Developer (B.Tech CSE).  
+> · [GitHub](https://github.com/Ganeshkumar841) · [LinkedIn](https://www.linkedin.com/in/ganeshkumarbasa)
 
 ---
 
