@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none">
+  <rect width="800" height="500" fill="#111110"/>
+  <g stroke="#262522" stroke-width="1">
+    <line x1="0" y1="80" x2="800" y2="80"/>
+    <line x1="0" y1="420" x2="800" y2="420"/>
+    <line x1="260" y1="80" x2="260" y2="420"/>
+    <line x1="540" y1="80" x2="540" y2="420"/>
+  </g>
+  <text x="32" y="48" fill="#9E9A90" font-family="monospace" font-size="13" letter-spacing="2">SYS.01 // AROGYAMITRA AI — MULTIMODAL RAG ARCHITECTURE</text>
+  <rect x="32" y="120" width="196" height="260" rx="4" fill="#171715" stroke="#D4633B" stroke-width="1.5"/>
+  <text x="52" y="155" fill="#D4633B" font-family="monospace" font-size="11">INPUT LAYER</text>
+  <text x="52" y="185" fill="#F2EFE9" font-family="sans-serif" font-weight="bold" font-size="16">Multimodal Intake</text>
+  <text x="52" y="218" fill="#9E9A90" font-family="monospace" font-size="12">• Voice Symptom Audio</text>
+  <text x="52" y="242" fill="#9E9A90" font-family="monospace" font-size="12">• Multilingual Text</text>
+  <text x="52" y="266" fill="#9E9A90" font-family="monospace" font-size="12">• Clinical Image Upload</text>
+  <rect x="300" y="120" width="200" height="260" rx="4" fill="#171715" stroke="#A8B8A0" stroke-width="1.5"/>
+  <text x="320" y="155" fill="#A8B8A0" font-family="monospace" font-size="11">RAG + VECTOR CORE</text>
+  <text x="320" y="185" fill="#F2EFE9" font-family="sans-serif" font-weight="bold" font-size="16">FAISS + Gemini API</text>
+  <text x="320" y="218" fill="#9E9A90" font-family="monospace" font-size="12">• Dense Vector Index</text>
+  <text x="320" y="242" fill="#9E9A90" font-family="monospace" font-size="12">• Medical Literature Grounding</text>
+  <text x="320" y="266" fill="#9E9A90" font-family="monospace" font-size="12">• Flask REST Engine</text>
+  <rect x="572" y="120" width="196" height="260" rx="4" fill="#171715" stroke="#F2EFE9" stroke-width="1"/>
+  <text x="592" y="155" fill="#F2EFE9" font-family="monospace" font-size="11">CLIENT &amp; STATE</text>
+  <text x="592" y="185" fill="#F2EFE9" font-family="sans-serif" font-weight="bold" font-size="16">Firebase + Tailwind</text>
+  <text x="592" y="218" fill="#9E9A90" font-family="monospace" font-size="12">• Verified Guidance</text>
+  <text x="592" y="242" fill="#9E9A90" font-family="monospace" font-size="12">• Session Persistence</text>
+  <text x="592" y="266" fill="#9E9A90" font-family="monospace" font-size="12">• Responsive UI</text>
+</svg>

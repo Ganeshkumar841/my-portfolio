@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none">
+  <rect width="800" height="500" fill="#111110"/>
+  <g stroke="#262522" stroke-width="1">
+    <line x1="0" y1="80" x2="800" y2="80"/>
+    <line x1="0" y1="420" x2="800" y2="420"/>
+  </g>
+  <text x="32" y="48" fill="#9E9A90" font-family="monospace" font-size="13" letter-spacing="2">SYS.04 // MULTI-DISEASE PREDICTION &amp; CREDIT SCORING BENCHMARK</text>
+  <rect x="32" y="120" width="736" height="260" rx="4" fill="#171715" stroke="#262522"/>
+  <text x="60" y="170" fill="#F2EFE9" font-family="monospace" font-size="14">Random Forest Classifier (Multi-Disease Prediction)</text>
+  <rect x="60" y="185" width="640" height="24" rx="2" fill="#262522"/>
+  <rect x="60" y="185" width="627" height="24" rx="2" fill="#D4633B"/>
+  <text x="710" y="202" fill="#F2EFE9" font-family="monospace" font-size="14" font-weight="bold">98.0%</text>
+  <text x="60" y="250" fill="#F2EFE9" font-family="monospace" font-size="14">XGBoost Gradient Boosted Trees + Feature Engineering</text>
+  <rect x="60" y="265" width="640" height="20" rx="2" fill="#262522"/>
+  <rect x="60" y="265" width="590" height="20" rx="2" fill="#A8B8A0"/>
+  <text x="60" y="325" fill="#F2EFE9" font-family="monospace" font-size="14">Support Vector Machine (SVM) &amp; Credit Risk Pipeline</text>
+  <rect x="60" y="340" width="640" height="20" rx="2" fill="#262522"/>
+  <rect x="60" y="340" width="560" height="20" rx="2" fill="#9E9A90"/>
+</svg>

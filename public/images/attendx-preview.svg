@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none">
+  <rect width="800" height="500" fill="#111110"/>
+  <g stroke="#262522" stroke-width="1">
+    <line x1="0" y1="80" x2="800" y2="80"/>
+    <line x1="0" y1="420" x2="800" y2="420"/>
+  </g>
+  <text x="32" y="48" fill="#9E9A90" font-family="monospace" font-size="13" letter-spacing="2">SYS.02 // ATTENDX — REAL-TIME EVENT TELEMETRY &amp; POSTGRESQL</text>
+  <rect x="32" y="115" width="230" height="130" rx="4" fill="#171715" stroke="#D4633B" stroke-width="1.5"/>
+  <text x="52" y="155" fill="#9E9A90" font-family="monospace" font-size="12">CONCURRENT ATTENDEES</text>
+  <text x="52" y="210" fill="#F2EFE9" font-family="sans-serif" font-weight="bold" font-size="44">400+</text>
+  <rect x="285" y="115" width="230" height="130" rx="4" fill="#171715" stroke="#A8B8A0" stroke-width="1.5"/>
+  <text x="305" y="155" fill="#9E9A90" font-family="monospace" font-size="12">DATA LOGS PROCESSED</text>
+  <text x="305" y="210" fill="#F2EFE9" font-family="sans-serif" font-weight="bold" font-size="44">1,000+</text>
+  <rect x="538" y="115" width="230" height="130" rx="4" fill="#171715" stroke="#F2EFE9" stroke-width="1"/>
+  <text x="558" y="155" fill="#9E9A90" font-family="monospace" font-size="12">REPORTING TIME SAVED</text>
+  <text x="558" y="210" fill="#D4633B" font-family="sans-serif" font-weight="bold" font-size="44">-60%</text>
+  <rect x="32" y="270" width="736" height="115" rx="4" fill="#171715" stroke="#262522" stroke-width="1"/>
+  <text x="52" y="310" fill="#F2EFE9" font-family="monospace" font-size="14">PIPELINE: CSV Pre-Registration → Supabase Auth &amp; PostgreSQL → SheetJS Branch/Year Automated Export</text>
+  <text x="52" y="345" fill="#A8B8A0" font-family="monospace" font-size="12">STATUS: Zero-Downtime Production Deployment on Vercel (attendxtracker.vercel.app)</text>
+</svg>

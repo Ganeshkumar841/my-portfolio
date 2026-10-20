@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ============================================================================
+ * DESIGN TOKENS — EDIT COLORS OR FONTS HERE
+ * Inspired by Patrick David (editorial brutalist dark monolith, warm ivory
+ * condensed display type) + Denise Chandler (clean breathing room, warm paper
+ * light mode option, restrained terracotta & sage accents).
+ * ============================================================================ */
+:root {
+  --bg-primary: #0D0D0C;
+  --bg-elevated: #141412;
+  --bg-card: #181815;
+  --text-primary: #F2EFE9;
+  --text-secondary: #A09C92;
+  --text-muted: #6E6B63;
+  --border-hairline: #282724;
+  --accent-primary: #D4633B;
+  --accent-secondary: #A8B8A0;
+  --font-display: 'Anton', Impact, 'Arial Narrow', sans-serif;
+  --font-serif: 'Instrument Serif', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+[data-theme='light'] {
+  --bg-primary: #F4F1EA;
+  --bg-elevated: #EAE5DC;
+  --bg-card: #FFFFFF;
+  --text-primary: #141413;
+  --text-secondary: #57544E;
+  --text-muted: #858078;
+  --border-hairline: #D8D2C7;
+  --accent-primary: #C44E27;
+  --accent-secondary: #5E7456;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+.font-display-condensed {
+  font-family: var(--font-display);
+  letter-spacing: -0.015em;
+  line-height: 0.88;
+  text-transform: uppercase;
+}
+
+.font-editorial-serif {
+  font-family: var(--font-serif);
+}
+
+.font-tech-mono {
+  font-family: var(--font-mono);
+}
+
+/* Subtle architectural grid texture */
+.bg-editorial-grid {
+  background-size: 64px 64px;
+  background-image: 
+    linear-gradient(to right, rgba(242, 239, 233, 0.025) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(242, 239, 233, 0.025) 1px, transparent 1px);
+}
