@@ -125,7 +125,7 @@ export const Hero: React.FC<HeroProps> = ({
                   <Terminal className="w-3.5 h-3.5" />
                   <span>VERIFIED CREDENTIALS</span>
                 </span>
-                <span>B.TECH CSE // 9.5 CGPA</span>
+                <span>B.TECH CSE // 9.4 CGPA</span>
               </div>
 
               <p

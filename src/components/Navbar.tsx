@@ -57,9 +57,7 @@ export const Navbar: React.FC<NavbarProps> = ({
           <span className="font-editorial-serif text-2xl sm:text-[26px] tracking-tight font-normal">
             {data.personalInfo.name}
           </span>
-          <span className="hidden xl:inline-block text-[10px] font-tech-mono uppercase tracking-widest px-2 py-0.5 rounded-full border border-[#D4633B]/50 text-[#D4633B]">
-            9.5 CGPA
-          </span>
+          
         </a>
 
         {/* Center: Interactive Role Lens Switcher (All / AI Engineer / Full Stack) */}
